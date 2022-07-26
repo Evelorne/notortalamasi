@@ -23,7 +23,7 @@ public class notortalamasi {
         System.out.print("Müzik Notunuzu Giriniz: ");
         f = epu.nextInt();
 
-        int total =(a+b+c+d+e+f)/6;
+        double total =(a+b+c+d+e+f)/6.0;
         String truth =(total>=60) ? "Sınıfı Geçti": "Sınıfta Kaldı";
         System.out.print(truth);
     }
